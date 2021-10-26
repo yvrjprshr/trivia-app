@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(20, 20, 78);
+    color: white;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.genre-column{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card{
+    width: 200px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: rgb(30, 48, 140);
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid yellow;
+}
+#game{
+    display: flex;
+}
+
+.correct-answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: rgb(85, 255, 0);
+    color: black;
+}
+.wrong-answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: red;
+    color: wheat;
+}
